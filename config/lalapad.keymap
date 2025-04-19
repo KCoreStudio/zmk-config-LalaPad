@@ -175,6 +175,22 @@
         };
     };
 
+    macros {
+        pc_pw: pc_pw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N) &kp A &kp G &kp A &kp M &kp O &kp R &kp I &kp AT &kp N2 &kp N0 &kp N2 &kp N3 &kp N0 &kp N1>;
+            label = "PC_PW";
+        };
+
+        mac_pw: mac_pw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N1 &kp N1 &kp N2 &kp N3 &kp N5 &kp N8 &kp N1 &kp N3 &kp N2 &kp N1>;
+            label = "MAC_PW";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -198,11 +214,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp N7                   &mt UP_ARROW N8    &kp N9                    &kp N0      &kp HOME
-&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp HOME       &mt LEFT_ARROW NUMBER_4  &mt DOWN_ARROW N5  &mt RIGHT_ARROW NUMBER_6  &kp EQUAL   &kp PAGE_UP
-&trans     &trans        &trans        &trans        &trans        &trans        &kp PAGE_DOWN  &kp NUMBER_1             &kp NUMBER_2       &kp NUMBER_3              &kp MINUS   &kp PAGE_DOWN
-&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans         &kp DELETE               &trans             &kp NUMBER_0              &dot_comma  &kp END
-                         &trans        &trans        &trans        &trans        &trans         &trans                   &trans             &trans
+&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp N7                   &mt UP_ARROW N8    &kp N9                    &kp N0      &kp HOME
+&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans        &mt LEFT_ARROW NUMBER_4  &mt DOWN_ARROW N5  &mt RIGHT_ARROW NUMBER_6  &kp EQUAL   &kp PAGE_UP
+&trans     &trans        &trans        &trans        &trans        &trans        &trans        &kp NUMBER_1             &kp NUMBER_2       &kp NUMBER_3              &kp MINUS   &kp PAGE_DOWN
+&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans        &kp DELETE               &mac_pw            &kp NUMBER_0              &dot_comma  &kp END
+                         &trans        &trans        &trans        &trans        &trans        &trans                   &trans             &trans
             >;
         };
 
@@ -212,7 +228,7 @@
 &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans  &pc_pw  &trans  &trans  &trans
                  &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans
             >;
         };
