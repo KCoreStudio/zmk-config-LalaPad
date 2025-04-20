@@ -197,7 +197,7 @@
         DEFAULT_LAYER {
             display-name = "Default";
             sensor-bindings =
-                <&inc_dec_kp LG(K_VOLUME_UP) LG(K_VOLUME_DOWN)>,
+                <&inc_dec_kp C_VOL_DN C_VOLUME_UP>,
                 <&scroll_up_down>;
 
             bindings = <
