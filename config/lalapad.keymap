@@ -212,10 +212,10 @@
                 <&scroll_up_down>;
 
             bindings = <
-&kp ESC              &kp Q         &kp W             &kp E            &kp R           &kp T          &kp Y          &kp U          &kp I            &kp O       &mt2 BACKSPACE P  &mt EQUAL MINUS
-&mt2 LCTRL CAPSLOCK  &kp A         &kp S             &kp D            &kp F           &kp G          &kp H          &kp J          &kp K            &kp L       &mt2 SEMI SQT     &kp ENTER
-&mt2 LSHFT TAB       &kp Z         &kp X             &kp C            &kp V           &kp B          &kp N          &kp M          &kp COMMA        &kp PERIOD  &mt2 UP SLASH     &mt2 RIGHT_SHIFT BSLH
-&mkp LCLK            &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE      &lt 4 CAPSLOCK  &lt 2 LANG2    &lt 3 LANG1    &kp BACKSPACE  &lt 1 SPACE      &kp LEFT    &kp DOWN          &kp RIGHT
+&kp ESC              &kp Q         &kp W             &kp E            &kp R           &kp T          &kp Y          &kp U          &kp I            &kp O       &kp P          &mt EQUAL MINUS
+&mt2 LCTRL CAPSLOCK  &kp A         &kp S             &kp D            &kp F           &kp G          &kp H          &kp J          &kp K            &kp L       &mt2 SEMI SQT  &kp ENTER
+&mt2 LSHFT TAB       &kp Z         &kp X             &kp C            &kp V           &kp B          &kp N          &kp M          &kp COMMA        &kp PERIOD  &mt2 UP SLASH  &mt2 RIGHT_SHIFT BSLH
+&mkp LCLK            &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE      &lt 4 CAPSLOCK  &lt 2 LANG2    &lt 3 LANG1    &kp BACKSPACE  &lt 1 SPACE      &kp LEFT    &kp DOWN       &kp RIGHT
                                    &allow_end        &allow_pagedown  &allow_home     &allow_pageup  &allow_pageup  &allow_home    &allow_pagedown  &allow_end
             >;
         };
@@ -227,10 +227,10 @@
                 <&scroll_left_right>;
 
             bindings = <
-&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6       &kp N7                   &mt UP_ARROW N8    &kp N9                    &kp N0      &kp HOME
-&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp LEFT_BRACKET   &mt LEFT_ARROW NUMBER_4  &mt DOWN_ARROW N5  &mt RIGHT_ARROW NUMBER_6  &kp EQUAL   &kp PAGE_UP
-&trans     &trans        &trans        &trans        &trans        &trans        &kp RIGHT_BRACKET  &kp NUMBER_1             &kp NUMBER_2       &kp NUMBER_3              &kp MINUS   &kp PAGE_DOWN
-&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans             &kp DELETE               &mac_pw            &kp NUMBER_0              &dot_comma  &kp END
+&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6       &kp N7                   &mt UP_ARROW N8    &kp N9                    &kp N0         &kp HOME
+&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp LEFT_BRACKET   &mt LEFT_ARROW NUMBER_4  &mt DOWN_ARROW N5  &mt RIGHT_ARROW NUMBER_6  &kp BACKSPACE  &kp PAGE_UP
+&trans     &trans        &trans        &trans        &trans        &trans        &kp RIGHT_BRACKET  &kp NUMBER_1             &kp NUMBER_2       &kp NUMBER_3              &kp MINUS      &kp PAGE_DOWN
+&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans             &kp DELETE               &mac_pw            &kp NUMBER_0              &dot_comma     &kp END
                          &trans        &trans        &trans        &trans        &trans             &trans                   &trans             &trans
             >;
         };
