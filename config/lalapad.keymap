@@ -215,11 +215,13 @@
         en {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <15 16>;
+            layers = <5>;
         };
 
         jp {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <19 20>;
+            layers = <5>;
         };
 
         Layer2 {
