@@ -227,9 +227,9 @@
             key-positions = <39 40>;
         };
 
-        L2_2 {
+        L2 {
             bindings = <&mo 2>;
-            key-positions = <48 49>;
+            key-positions = <39 29>;
         };
     };
 
