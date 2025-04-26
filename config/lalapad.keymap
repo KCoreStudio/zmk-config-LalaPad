@@ -221,6 +221,11 @@
             bindings = <&kp LANGUAGE_1>;
             key-positions = <19 20>;
         };
+
+        Layer2 {
+            bindings = <&mo 2>;
+            key-positions = <39 40>;
+        };
     };
 
     keymap {
