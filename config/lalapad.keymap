@@ -209,6 +209,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        en {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <15 16>;
+        };
+
+        jp {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <19 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
