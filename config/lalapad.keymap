@@ -200,6 +200,13 @@
             bindings = <&kp N1 &kp N1 &kp N2 &kp N3 &kp N5 &kp N8 &kp N1 &kp N3 &kp N2 &kp N1>;
             label = "MAC_PW";
         };
+
+        Screen_Shot: Screen_Shot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            label = "SCREEN_SHOT";
+        };
     };
 
     keymap {
@@ -231,7 +238,7 @@
 &trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp LEFT_BRACKET   &mt LEFT_ARROW NUMBER_4  &mt DOWN_ARROW N5  &mt RIGHT_ARROW NUMBER_6  &kp BACKSPACE  &kp PAGE_UP
 &trans     &trans        &trans        &trans        &trans        &trans        &kp RIGHT_BRACKET  &kp NUMBER_1             &kp NUMBER_2       &kp NUMBER_3              &kp MINUS      &kp PAGE_DOWN
 &trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans             &kp DELETE               &mac_pw            &kp NUMBER_0              &dot_comma     &kp END
-                         &trans        &trans        &trans        &trans        &trans             &trans                   &trans             &trans
+                         &Screen_Shot  &trans        &trans        &trans        &trans             &trans                   &trans             &trans
             >;
         };
 
