@@ -255,7 +255,7 @@
             display-name = "secondary_layer";
             sensor-bindings =
                 <&inc_dec_kp LG(MINUS) LG(EQUAL)>,
-                <&scroll_left_right>;
+                <&scroll_right_left>;
 
             bindings = <
 &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6       &kp N7                   &mt UP_ARROW N8    &kp N9                    &kp N0         &kp HOME
