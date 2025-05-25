@@ -209,7 +209,7 @@
             bindings = <
 &kp ESC          &kp Q         &kp W         &kp E            &kp R        &kp T                            &kp Y                           &kp U          &kp I            &kp O       &kp P          &mt EQUAL MINUS
 &mt2 LCTRL CAPS  &kp A         &kp S         &kp D            &kp F        &kp G                            &kp H                           &kp J          &kp K            &kp L       &mt2 SEMI SQT  &kp ENTER
-&kp LSHFT        &kp Z         &kp X         &kp C            &kp V        &kp B                            &kp N                           &kp M          &kp COMMA        &kp PERIOD  &mt2 UP SLASH  &kp BSLH
+&kp LSHFT        &kp Z         &kp X         &kp C            &kp V        &kp B                            &kp N                           &kp M          &kp COMMA        &kp PERIOD  &mt2 UP SLASH  &mt RIGHT_SHIFT BSLH
 &mkp LCLK        &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE        &lt 4 TAB    &lt TERTIARY_LAYER LEFT_BRACKET  &lt SYSTEM_LAYER RIGHT_BRACKET  &kp BACKSPACE  &kp SPACE        &kp LEFT    &kp DOWN       &kp RIGHT
                                &allow_end    &allow_pagedown  &allow_home  &allow_pageup                    &allow_pageup                   &allow_home    &allow_pagedown  &allow_end
             >;
