@@ -252,11 +252,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4             &kp NUMBER_5  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &kp HOME
-&kp TAB    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9             &kp NUMBER_0  &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &kp PG_UP
-&trans     &trans        &trans        &trans        &trans                   &trans        &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp PAGE_DOWN
-&mkp RCLK  &trans        &trans        &trans        &kp LS(LG(KP_NUMBER_4))  &kp CAPS      &trans        &kp DELETE    &PW_Mac       &kp N0        &trans  &kp END
-                         &trans        &trans        &trans                   &trans        &trans        &trans        &trans        &trans
+&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &kp HOME
+&kp TAB    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &kp PG_UP
+&trans     &trans        &trans        &trans        &trans        &trans        &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp PAGE_DOWN
+&mkp RCLK  &trans        &trans        &trans        &trans        &kp CAPS      &trans        &kp DELETE    &PW_Mac       &kp N0        &trans  &kp END
+                         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
         };
 
