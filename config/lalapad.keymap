@@ -222,13 +222,6 @@
             bindings = <&kp LS(N) &kp A &kp G &kp A &kp M &kp O &kp R &kp I &kp AT &kp N2 &kp N0 &kp N2 &kp N3 &kp N0 &kp N1>;
             label = "PW_PC";
         };
-
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "NEW_MACRO";
-        };
     };
 
     keymap {
