@@ -198,7 +198,7 @@
         };
 
         Japanese {
-            bindings = <&kp LS(LANGUAGE_1)>;
+            bindings = <&kp LS(LANG_HANGEUL)>;
             key-positions = <19 20>;
         };
 
