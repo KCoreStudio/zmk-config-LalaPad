@@ -232,7 +232,7 @@
             sensor-bindings = <&volume_down_up>, <&scroll_up_down>;
 
             bindings = <
-&kp ESC          &kp Q         &kp W         &kp E            &kp R               &kp T                            &kp Y                           &kp U          &kp I            &kp O       &kp P          &mt EQUAL MINUS
+&kp ESC          &kp Q         &kp W         &kp E            &kp R               &kp T                            &kp Y                           &kp U          &kp I            &kp O       &kp P          &mt2 EQUAL MINUS
 &mt2 LCTRL CAPS  &kp A         &kp S         &kp D            &kp F               &kp G                            &kp H                           &kp J          &kp K            &kp L       &mt2 SEMI SQT  &kp ENTER
 &kp LSHFT        &kp Z         &kp X         &kp C            &kp V               &kp B                            &kp N                           &kp M          &kp COMMA        &kp PERIOD  &mt2 UP SLASH  &mt RIGHT_SHIFT BSLH
 &mkp LCLK        &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 SPACE      &lt 4 LEFT_CONTROL  &lt TERTIARY_LAYER LEFT_BRACKET  &lt SYSTEM_LAYER RIGHT_BRACKET  &kp BACKSPACE  &lt 1 SPACE      &kp LEFT    &kp DOWN       &kp RIGHT
