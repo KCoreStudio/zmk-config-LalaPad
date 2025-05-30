@@ -232,7 +232,7 @@
 &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &kp HOME
 &kp TAB    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0  &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &kp PG_UP
 &trans     &trans        &trans        &trans        &trans                &trans        &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp PAGE_DOWN
-&mkp RCLK  &trans        &trans        &trans        &kp LS(LG(NUMBER_4))  &kp CAPS      &trans        &kp DELETE    &PW_Mac       &kp N0        &trans  &kp END
+&mkp RCLK  &trans        &trans        &trans        &kp LS(LG(NUMBER_4))  &kp CAPS      &trans        &kp DELETE    &trans        &kp N0        &trans  &kp END
                          &trans        &trans        &trans                &trans        &trans        &trans        &trans        &trans
             >;
         };
@@ -243,7 +243,7 @@
 &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
 &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans          &PW_PC          &trans           &trans  &trans
+&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans          &trans          &trans           &trans  &trans
                  &trans   &trans   &trans   &trans   &trans  &trans          &trans          &trans
             >;
         };
