@@ -187,6 +187,15 @@
             tap-ms = <20>;
             label = "VOLUME_DOWN_UP";
         };
+
+        double_tap: double_tap {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOUBLE_TAP";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK>, <&double_click>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     combos {
@@ -205,6 +214,15 @@
         Arrow {
             bindings = <&mo 2>;
             key-positions = <39 40>;
+        };
+    };
+
+    macros {
+        double_click: double_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK &mkp LCLK>;
+            label = "DOUBLE_CLICK";
         };
     };
 
@@ -264,11 +282,11 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo SCROLL_R_LAYER
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &mo 5      &mkp RCLK  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans     &trans     &trans     &trans         &trans  &trans  &trans     &trans     &trans     &trans
+&mo 5   &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &double_click  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo SCROLL_R_LAYER
+&trans  &trans  &mkp MB5   &mkp MB4   &trans     &trans         &trans  &trans  &mkp MB4   &mkp MB5   &trans     &trans
+&trans  &trans  &trans     &trans     &trans     &trans         &trans  &trans  &trans     &mo 5      &mkp RCLK  &trans
+                &trans     &trans     &trans     &trans         &trans  &trans  &trans     &trans
             >;
         };
 
